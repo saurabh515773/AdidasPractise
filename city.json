@@ -1,0 +1,46 @@
+{
+"origincity":"hyderabad",
+"itineraries":[
+ {
+  "destinationcity":"bangalore",
+  "departuretime":"12:00",
+  "arrivaltime":"12:45",
+  "way":"One way"
+ },
+ {
+ "destinationcity":"bangalore",
+  "departuretime":"12:00",
+  "arrivaltime":"13:05",
+  "way":"Two Way"
+ },
+ {
+ "destinationcity":"bangalore",
+  "departuretime":"12:00",
+  "arrivaltime":"12:30",
+  "way":"Three Way"
+ }
+ ]
+},
+{
+"origincity":"mumbai",
+"itineraries":[
+ {
+  "destinationcity":"bangalore",
+  "departuretime":"12:00",
+  "arrivaltime":"12:45",
+  "way":"One way"
+ },
+ {
+ "destinationcity":"bangalore",
+  "departuretime":"12:00",
+  "arrivaltime":"13:05",
+  "way":"Two Way"
+ },
+ {
+ "destinationcity":"bangalore",
+  "departuretime":"12:00",
+  "arrivaltime":"12:30",
+  "way":"Three Way"
+ }
+ ]
+}

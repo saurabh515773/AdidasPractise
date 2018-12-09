@@ -1,0 +1,47 @@
+{"cities" : [{  
+   "originCity":  "hyderabad",
+   "destinationCity":"bangalore",
+   "departureTime":"2018-12-10 10:43:00.00",
+      "itineraries":[  
+         {  
+            "arrivalTime":"2018-12-11 00:43:00.00",
+            "pathId":"First way",
+            "connectionNum":"2"
+         },
+         {  
+            "arrivalTime":"2018-12-10 23:43:00.00",
+            "pathId":"Second Way",
+            "connectionNum":"1"
+         },
+         {  
+            "arrivalTime":"2018-12-11 3:43:00.00",
+            "pathId":"Third Way",
+            "connectionNum":"2"
+         }
+      ]
+},
+{  
+   "originCity":  "bangalore",
+   "destinationCity":"pune",
+   "departureTime":"2018-12-10 13:50:00.00",
+            
+      "itineraries":[  
+         {  
+            "arrivalTime":"2018-12-10 23:50:00.00",
+            "pathId":"First way bng",
+            "connectionNum":"3"
+         },
+         {  
+            "arrivalTime":"2018-12-11 22:43:00.00",
+            "pathId":"Second Way bng",
+            "connectionNum":"3"
+         },
+         {  
+            "arrivalTime":"2018-12-11 5:43:00.00",
+            "pathId":"Third Way bng",
+            "connectionNum":"5"
+         }
+      ]
+}
+]
+}
