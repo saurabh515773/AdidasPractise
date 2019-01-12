@@ -13,7 +13,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
-
 import com.couchbase.client.deps.com.fasterxml.jackson.databind.ObjectMapper;
 
 
@@ -106,5 +105,10 @@ public class CityController {
 		return null;
 	}
 		
+	@RequestMapping(value = "/fetch/excel", method = RequestMethod.GET)
+	public @ResponseBody void GenerateExcelFile() throws ParseException, java.text.ParseException {
+		ExcelExport excel = new ExcelExport();
+		excel.Excel();
+	}
 	
 }
